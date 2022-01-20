@@ -127,3 +127,23 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Jetbrains
+.idea
+
+# Specific image files
+BoredApe.jpg
+Fabian_Gilson.jpg
+Family_fun.jpg
+Jordan_Booth.jpg
+Joyous_Fab.jpg
+Reuben_Ishrahm.jpg
+Tyan_Logo.jpg
+TyanQueenstown.jpeg
+
+# Specific image folders
+NFT_Exhibition/
+NFT_Overflow/
+Random_Images/
+SENG_Students/
+Shades/
