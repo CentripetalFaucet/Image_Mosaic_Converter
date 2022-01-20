@@ -132,6 +132,8 @@ dmypy.json
 .idea
 
 # Specific image files
+Mosaic_Collage.jpg
+
 BoredApe.jpg
 Fabian_Gilson.jpg
 Family_fun.jpg
@@ -144,6 +146,5 @@ TyanQueenstown.jpeg
 # Specific image folders
 NFT_Exhibition/
 NFT_Overflow/
-Random_Images/
 SENG_Students/
 Shades/
