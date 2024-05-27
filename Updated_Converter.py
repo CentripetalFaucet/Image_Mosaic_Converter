@@ -49,7 +49,7 @@ class MosaicCreator:
         for index, row in enumerate(image_array):
             for column_index, image in enumerate(row):
                 new_im.paste(image, (column_index * mini_image_width, index * mini_image_height))
-        new_im.save("Output/Updated_Collage.jpg")
+        new_im.save("Updated_Collage.jpg")
 
     def open_images(self, images):
         """
@@ -336,7 +336,7 @@ def list_directory(basepath):
 
 def main():
     start = time.process_time()
-    mosaic_creator = MosaicCreator(block_size=3, size_reduction_factor=1, alpha_adjustment=0.2)
+    mosaic_creator = MosaicCreator(block_size=8, size_reduction_factor=1, alpha_adjustment=0.2)
 
     mini_image_folder = r"Source_Images/Micro_Images/Random_Images"
     big_image = r"Source_Images/Main_Images/Example.jpg"
